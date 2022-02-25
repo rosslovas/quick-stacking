@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "quickstacking",
+  "version": "1.0.0",
+  "name": "Quick Stacking",
+  "description": "Quick stack or dump items in your inventory to nearby inventories with a key press.",
+  "authors": [
+    "Rosco"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "rosco.minecraftmods.quickstacking.QuickStackingMod"
+    ],
+    "client": [
+      "rosco.minecraftmods.quickstacking.QuickStackingClient"
+    ]
+  },
+  "mixins": [
+    "quickstacking.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "fabric-key-binding-api-v1": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}

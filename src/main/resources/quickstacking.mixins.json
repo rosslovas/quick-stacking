@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "rosco.minecraftmods.quickstacking.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "DoubleInventoryAccessor",
+    "ItemStackMixin",
+    "ShulkerBoxScreenHandlerAccessor"
+  ],
+  "client": [
+    "HandledScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "plugin": "rosco.minecraftmods.quickstacking.QuickStackingMixinConfigPlugin"
+}
