@@ -5,9 +5,11 @@
   "name": "Quick Stacking",
   "description": "Quick stack or dump items in your inventory to nearby inventories with a key press.",
   "authors": [
-    "Rosco"
+    "Rosco",
+    "osso"
   ],
   "license": "MIT",
+  "icon": "assets/quickstacking/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
